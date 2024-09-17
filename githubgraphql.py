@@ -1,11 +1,11 @@
+from dotenv import load_dotenv
 import requests
 import os
-from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
-def get_commit_contributions(start_date, end_date):
+def get_commit_contributions_count(start_date, end_date):
     GH_PERSONAL_ACCESS_TOKEN = os.getenv('GH_PERSONAL_ACCESS_TOKEN')
     headers = {"Authorization": f"Bearer {GH_PERSONAL_ACCESS_TOKEN}"}
     query = """
