@@ -51,10 +51,10 @@ except:
     raise Exception('ERROR: GitHub GraphQL query failed to run.')
 
 ##### EXIT IF THERE IS AT LEAST ONE CONTRIBUTION FOR TODAY #####
-# if contribution_count >= 1:
-#     print(f'Great job, you have {contribution_count} new contribution(s)! No further action needed.')
-#     time.sleep(2)
-#     exit(0)
+if contribution_count >= 1:
+    print(f'Great job, you have {contribution_count} new contribution(s)! No further action needed.')
+    time.sleep(2)
+    exit(0)
 
 ##### CONNECT TO GITHUB API v3 #####
 print('You have no contributions for today. Initializing "SHAME PROTOCOL"...')
