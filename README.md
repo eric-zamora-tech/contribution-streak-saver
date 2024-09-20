@@ -89,7 +89,7 @@ _Follow these steps to install and set up the script:_
     GITHUB_PERSONAL_ACCESS_TOKEN=your_github_token
     GITHUB_USERNAME=your_github_username
    ```
-   You can get your OpenAI API key from here and your GitHub personal access token from GitHub Settings.
+   You can get your OpenAI API key from [here](https://platform.openai.com/api-keys) and your GitHub personal access token from [GitHub Settings](https://github.com/settings/profile).
 5. Configure the "Hall of Shame" repository
 
     If you don’t have a repository named `hall-of-shame`, the script will create one for you. You can change the repository name in the script if you prefer a different one.
